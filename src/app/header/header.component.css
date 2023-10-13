@@ -1,0 +1,30 @@
+/* Style for the navbar */
+.navbar {
+  background-color: #3498db;
+}
+
+/* Style for the brand/logo */
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Style for the navigation links */
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Style for the dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* You can adjust the z-index as needed to control the stacking order. */
+}
+

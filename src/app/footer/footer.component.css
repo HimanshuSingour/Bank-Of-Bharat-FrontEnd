@@ -1,0 +1,20 @@
+/* Apply fixed position and set bottom to 0 to stick the footer to the bottom */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1; /* Background color for the footer */
+  padding: 10px; /* Add padding for spacing */
+}
+
+/* Style the social media icons and links (modify as needed) */
+.footer-icon {
+  font-size: 24px;
+  color: #333; /* Text color for icons */
+  margin: 5px;
+}
+
+/* Style the copyright text and link (modify as needed) */
+.footer-copyright {
+  color: #333; /* Text color for copyright text and link */
+}
