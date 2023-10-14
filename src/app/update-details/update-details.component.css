@@ -1,0 +1,27 @@
+/* CSS for styling the heading */
+.text-center {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  font-family: 'Arial', sans-serif;
+  padding: 10px;
+  text-decoration: underline; /* Add underline to the text */
+}
+
+/* CSS for adding animation */
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply animation to the heading */
+.text-center:hover {
+  animation: scale 1s ease infinite; /* Apply the "scale" animation on hover */
+}
