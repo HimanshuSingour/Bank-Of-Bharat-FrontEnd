@@ -19,6 +19,9 @@ import { GetUpiDetailsComponent } from './get-upi-details/get-upi-details.compon
 import { GetNetBankingDetailsComponent } from './get-net-banking-details/get-net-banking-details.component';
 import { CreateNetBankingIdComponent } from './create-net-banking-id/create-net-banking-id.component';
 import { CreateUpiIdComponent } from './create-upi-id/create-upi-id.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -37,12 +40,16 @@ import { CreateUpiIdComponent } from './create-upi-id/create-upi-id.component';
     GetUpiDetailsComponent,
     GetNetBankingDetailsComponent,
     CreateNetBankingIdComponent,
-    CreateUpiIdComponent
+    CreateUpiIdComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    FormsModule,
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
